@@ -1,3 +1,5 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 header{
 	position: fixed;
 	top: 0;
@@ -175,4 +177,54 @@ header{
 }
 .img-raised{
 	box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.3);
+}
+/* contacts */
+.card-pricing{
+	text-align: center;
+
+}
+.title{
+	color:#0071ba;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.input-group{
+	margin-bottom: 12px;
+	position: relative;
+}
+.form-control{
+	border-radius: 25px;
+}
+.card-pricing ul{
+	list-style: none;
+	padding: 0;
+	max-width: 240px;
+	margin: 20px auto;
+}
+.card-pricing ul li{
+	color: #888888;
+	text-align: center;
+	font-style: 18px;
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(136,136,136,0.3);
+}
+.card-pricing ul li i{
+	top: 3px;
+	right: 3px;
+	position: relative;
+	font-size: 22px;
+}
+footer{
+	height: 70px;
+}
+.footer-menu{
+	list-style: none;
+	margin-top: 20px;
+	height: 70px;
+}
+.footer-menu li{
+	display: inline;
+	padding: 5px;
+	text-transform: uppercase;
 }
