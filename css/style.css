@@ -178,13 +178,12 @@ header{
 .img-raised{
 	box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.3);
 }
-/* contacts */
+/*Contacts*/
 .card-pricing{
 	text-align: center;
-
 }
 .title{
-	color:#0071ba;
+	color: #0071ba;
 	font-weight: bold;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -205,26 +204,58 @@ header{
 .card-pricing ul li{
 	color: #888888;
 	text-align: center;
-	font-style: 18px;
+	font-size: 16px;
 	padding: 20px 0;
-	border-bottom: 1px solid rgba(136,136,136,0.3);
+	border-bottom: 1px solid rgba(136, 136, 136, 0.3);
 }
 .card-pricing ul li i{
 	top: 3px;
 	right: 3px;
 	position: relative;
-	font-size: 22px;
+	font-size: 24px;
 }
+/*Footer*/
 footer{
 	height: 70px;
 }
 .footer-menu{
 	list-style: none;
-	margin-top: 20px;
-	height: 70px;
+	margin-top: 20px;	
 }
 .footer-menu li{
 	display: inline;
 	padding: 5px;
 	text-transform: uppercase;
+}
+/*About*/
+.page-header{
+	position: relative;
+	height: 500px;
+	max-width: 1920px;
+	margin: auto;
+	
+}
+.page-header .page-header-image{
+	position: absolute;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.page-header .content-center{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	transform: translate(-50%, -50%);
+	text-align: CENTER;
+	
+	width: 100%;
+	max-width: 880px;
+	padding: 0 15px;
+}
+.page-header .title{
+	font-style: 55px;
+	color: #ffffff;
 }
